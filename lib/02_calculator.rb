@@ -18,7 +18,6 @@ def power(a, b)
   a**b
 end
 
-def factorial(n)
   def factorial(n)
     if n == 0
       1
@@ -26,5 +25,4 @@ def factorial(n)
       (1..n).inject(:*)
     end
   end
-  
-end
+
